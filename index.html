@@ -11,7 +11,7 @@
         <meta property="og:image:width" content="1024">
         <meta property="og:image:height" content="1024">
         <link rel="stylesheet" href="./dist/assets/css/main.min.css">
-        <link rel="icon" href="./dist/assets/img/favicon.png">
+        <link rel="icon" href="./dist/assets/img/fav.png">
         <script>
             app = {}
         </script>
@@ -20,14 +20,13 @@
     <body>
         <div class="header header-scroll">
             <!-- <div class="container-header">-->
-            <div class="headerMenu"> <a href="#kontakt" class="nav-el">Technologie</a>
- <a href="#dojazd" class="nav-el">Usługi</a>
+            <div class="headerMenu"> <a href="#start" class="nav-el">About us</a>
 
-                <a
-                href="#start" class="logo-elem">
-                    <img class="logo-image" src="./dist/assets/img/logoacc.png" alt="AI Games Technology logo">
-                    </a> <a href="./czynnosci.html" class="nav-el">Team</a>
- <a href="#kontakt" class="nav-el">Kontakt</a>
+                <!-- <a href="#start" class="nav-el">Usługi</a>--> <a href="#start" class="logo-elem"><img class="logo-image" src="./dist/assets/img/logoacc.png"
+                                                alt="AI Games Technology logo"></a>
+
+                <!--
+                <a href="#" class="nav-el">Team</a>--> <a href="#kontakt" class="nav-el">Contact</a>
 
             </div> <a href="#start" class="logo-elem logo-elem-mobile"><img class="logo-image" src="./dist/assets/img/logoacc.png"
                                             alt="AI Games Technology logo"></a>
@@ -42,20 +41,17 @@
         </div>
         <!-- </div>-->
         <div class="topMenu">
-            <video class="video" playsinline autoplay muted loop id="menuVideo">
-                <source src="dist/assets/img/videomenu.mp4" type="video/mp4">
-            </video>
+            <div class="bg-menu"></div>
+            <!-- <video class="video" playsinline autoplay muted loop id="menuVideo">-->
+            <!-- <source src="dist/assets/img/videomenu.mp4" type="video/mp4">-->
+            <!-- </video>-->
             <ul>
-                <li><a href="#kontakt" class="nav-el">Technologie</a>
+                <li><a href="#start" class="nav-el">About us</a>
 
                 </li>
-                <li><a href="#dojazd" class="nav-el">Usługi</a>
-
-                </li>
-                <li><a href="./czynnosci.html" class="nav-el">Team</a>
-
-                </li>
-                <li><a href="#kontakt" class="nav-el">Kontakt</a>
+                <!-- <li><a href="#dojazd" class="nav-el">Usługi</a></li>-->
+                <!-- <li><a href="./czynnosci.html" class="nav-el">Team</a></li>-->
+                <li><a href="#kontakt" class="nav-el">Contact</a>
 
                 </li>
             </ul>
@@ -65,11 +61,43 @@
         </div>
         <div class="page-limiter">
             <div class="video-wrapper" id="start">
-                <video class="video" autoplay muted loop id="myVideo">
+                <video class="video" playsinline autoplay muted loop id="myVideo">
                     <source src="dist/assets/img/video.mov" type="video/mp4">
                 </video>
+                <div class="about">
+                    <p>AI Games Technology is a product analytics company that helps turn data
+                        into revenue.
+                        <br>We compiled a broad array of data to fuel engine that helps studios and
+                        publishers understand in real time how choices in game development and
+                        marketing could impact a game risk profile and revenue potential. We focus
+                        on PC singleplayer games.
+                        <br>
+                        <br>
+                    </p>
+                </div> <a class="btn-class" href="#more" id="more">READ MORE</a>
+
             </div>
-            <div class="contact" id="kontakt"></div>
+            <div class="more">
+                <p>We are looking for game studios and publishers that would like to adopt
+                    our technology based on AI and Big Data to speed up their game development
+                    process and increase revenues. We aim to faster time-to-insight, decrease
+                    in costs and quicker time to market for new games.</p>
+            </div>
+            <div class="contact" id="kontakt">
+                <div class="contact-info">
+                     <h3>CONTACT US</h3>
+ <span>AI Games Technology</span>
+ <span>ul. Główna 4</span>
+ <span>00-176 Warszawa</span>
+
+                    <span
+                    class="mail"><a href="mailto:name@email.com">ai-games@gmail.com</a>
+
+                        </span>
+                         <h2>Ready when you are!</h2>
+
+                </div>
+            </div>
         </div>
         <script src="./dist/assets/js/libs/jquery.js"></script>
         <script src="./dist/assets/js/common.js"></script>
